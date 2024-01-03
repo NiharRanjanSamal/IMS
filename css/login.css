@@ -1,0 +1,324 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+
+
+body#loginbody{
+    background: url('banner4.jpg')no-repeat center center fixed ;
+    background-size: cover;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body background{
+    filter:saturate(20);
+}
+
+div.loginheader{
+    text-align: center;
+}
+
+div.loginheader{
+    margin-bottom: 60px;
+}
+
+div.loginheader h1{
+    font-size: 550px;
+    color:rgb(0, 5, 23) ;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+div.loginheader p{
+    color: #f47435;
+    font-size: 20px;
+    margin:0px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-shadow: 300px;
+    
+}
+
+div.loginheader p:after{
+    content:'';
+    display: block;
+    height: 5px;
+    background: rgb(28, 1, 5);
+    margin: 0 auto;
+}
+
+div.loginbody {
+    margin:0 auto ;
+    width: 400px;
+    background: rgba(43, 43, 43, 0.5);
+    padding: 50px;
+    border: 2px solid #acacac;
+    border-radius: 8px;
+}
+
+div.logininputcontainer {
+    margin-top: 20px;
+}
+
+div.logininputcontainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.logininputcontainer input{
+    height: 20px;
+    width: 100%;
+    border:2px solid #120207;
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+    font-style: ;
+}
+
+div.loginbuttoncontainer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.loginbuttoncontainer  button{
+    font-size: 15px;
+    padding: 10px 30px;
+    background: rgb(244 116 53);
+    border: none;
+    color: rgb(10, 1, 1);
+}
+
+div.loginbuttoncontainer a:hover{
+    background-color : #2f2252;
+    transition: 0.3s all;
+
+}
+
+
+
+
+
+
+
+div.header{
+    width: 100%;
+    background: #c7dbe7;
+    padding: 5px 0px;
+    text-align: right;
+}
+div.header a{
+    font-size: 12px;
+    color:#fff;
+    border:2px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #f3bd00;
+    
+}
+div.header a:hover{
+    font-weight: bold;
+    background-color: rebeccapurple;
+    transition: 0.5s all;
+}
+div.banner{
+    background: url("banner3.jpg")no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 155px;
+    height: 98vh;
+}
+div.homepagecontainer{
+    width: 100%;
+    max-width: 1000px;
+    /*height: 70vh;*/
+    margin: 0 auto;
+}
+div.bannerheader h1{
+    font-size: 90px;
+    color: #f3bd00;
+    line-height: 100%;
+}
+div.bannerheader p{
+    font-size: 35px;
+    color: #c7dbe7;
+    text-transform: uppercase;
+    line-height: 100%;
+    
+}
+div.bannertagline{
+    margin-top: 20px;
+    font-size: 65px;
+    color: #aac1ff;
+}
+div.bannericons{
+    margin-top:243px;
+
+}
+div.bannericons a{
+    font-size: 23px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: #f3bd00;
+    color: #fff;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display: inline-block;
+} 
+
+div.bannericons a:first-child{
+    margin-left:0px;
+}
+
+div.bannericons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: rebeccapurple;
+    transition: .5s all;
+}
+div.homepagefeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+div.homepagefeature{
+    padding: 10px 20px;
+    text-align: center;
+    width: 33.3%;
+    
+}
+div.homepagefeature:hover{
+    border-top: 2px solid#f685a1;
+    border-bottom: 2px solid#f685a1;
+    transition:  all;
+}
+div.homepagefeature span.featureicon{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    font-size: 50px;
+    background: #f685a1;
+    color: #fff;
+    
+    padding-top: 5px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+div.homepagefeature h3.featuretitle{
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+div.homepagefeature p.featuredescription{
+    columns: #848484;
+    font-size: 15px;
+}
+
+
+div.homepagenotified{
+    background: #e3e3e3;
+    padding: 80px 0px;
+}
+
+div.homepagenotifiedcontainer{
+    display: flex;
+    flex-direction: row;
+}
+div.homepagenotifiedcontainer > div{
+    width: 50%;
+}div.emailform h3{
+    font-size: 25px;
+}
+div.emailform{
+    width: 40%;
+}
+div.vedio{
+    width: 60%;
+}
+div.homepagenotified h3{
+    margin-bottom: 20px;
+}
+div.homepagenotified p{
+    color: #848484;
+    line-height: 200%;
+    margin-bottom: 30px;
+}
+div.formcontainer{
+    width: 80%;
+    position: relative;
+}
+div.formcontainer input{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+}
+div.formcontainer input:focus{
+    outline: none;
+}
+div.formcontainer button{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+    font-size: 22px;
+    padding: 0px 10px;
+    background: #f685a1;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+div.iframe{
+    width: 80%;
+    height: 100%;
+}
+div.socials{
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+h3.socialheader{
+    font-size: 30px;
+}
+p.socialtext{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #848484;
+    font-size: 20px;
+}
+div.socialiconscontainer a{
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    padding-top: 5px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+div.socialiconscontainer a:hover{
+    background: #f8a4b9;
+    transition: 0.3s all;
+}
+div.footer{
+    background: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+div.footer a{
+    color:#848484 ;
+    margin-left: 30px;
+    text-decoration: none;
+}
+div.footer a:hover{
+    font-weight: bold;
+    color: #f8a4b9;
+    transition: 0.5s all;
+}
